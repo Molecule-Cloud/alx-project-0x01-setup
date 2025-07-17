@@ -1,10 +1,14 @@
-import React from "react";
+import Header from '@/components/layout/Header';
 
-export const Posts: React.FC = () => {
+
+const Posts: React.FC = () => {
   return (
     <div>
-      <h1>Posts</h1>
+      <Header />
       <p>This is the posts page.</p>
     </div>
   );
 }
+
+
+export default Posts;
