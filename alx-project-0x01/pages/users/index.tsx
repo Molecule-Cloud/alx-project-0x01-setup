@@ -23,7 +23,7 @@ const Users: React.FC<UserProps[]> = ({ posts }) => {
                         <div className="grid grid-cols-3 gap-2">
 
                         {
-                            posts?.map((user) => (
+                            posts.map((user) => (
                                 // Used user.id instead of index fir key prop is a good practice
                                 // as it helps React identify which items have changed, are added, or removed.
                                 <UserCard
