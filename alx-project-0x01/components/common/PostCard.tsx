@@ -4,7 +4,7 @@ import { PostProps } from "@/interfaces"
 const PostCard: React.FC<PostProps> = ({ title, body, userId, id }) => {
     return (
         <>
-            <div className = " max-w-xl ax-auto my-6 p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadowduration-300">
+            <div className = "max-w-xl ax-auto my-6 p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadowduration-300">
                 <div className="mb-4">
                     <h2 className="text-2xl font-semi-bold text-gray-800"> {title} </h2>
                 </div>
