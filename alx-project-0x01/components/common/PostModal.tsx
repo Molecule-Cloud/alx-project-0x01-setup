@@ -21,7 +21,8 @@ const PostModal: React.FC<PostModalProps> = ({ onClose, onSubmit } ) => {
     return (
         <>
             <div className="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center">
-                <div className="bg-white rouded lg p-8 shadow-lg w-full max-x-md">
+                <div className="bg-white rouded-lg p-8 shadow-lg w-full max-x-md">
+                    <h2 className="text-2xl font-bold mb-4 text-gray-800"> Add New Post </h2>
                     <form onSubmit={handleSubmit}>
                         <div className="mb-4">
                             <label htmlFor="userId" className="block text-gray-700 font-md mb-2">

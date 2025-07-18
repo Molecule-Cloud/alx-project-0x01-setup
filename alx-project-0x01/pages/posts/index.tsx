@@ -1,7 +1,7 @@
 import Header from '@/components/layout/Header';
 import PostCard from '@/components/common/PostCard';
 import { PostData, PostProps } from "@/interfaces"
-import { useState } from 'react'
+import { useState } from 'react';
 import PostModal from '@/components/common/PostModal';
 
 
